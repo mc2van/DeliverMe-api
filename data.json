@@ -1,0 +1,30 @@
+[
+  {
+    "address": "test",
+    "coords": {
+      "lat": 1,
+      "long": 11
+    }
+  },
+  {
+    "address": "test2",
+    "coords": {
+      "lat": 2,
+      "long": 22
+    }
+  },
+  {
+    "address": "test3",
+    "coords": {
+      "lat": 3,
+      "long": 33
+    }
+  },
+  {
+    "address": "test4",
+    "coords": {
+      "lat": 4,
+      "long": 44
+    }
+  }
+]
