@@ -46,7 +46,7 @@ class Gene:
                 snippet.append(self.numList[i])
             for i in range(bounds[0], bounds[1]):
                 self.numList[i] = snippet.pop()
-            self.fitnessScore = self.fitness(self.n, self.m)
+            self.fitnessScore = self.fitness()
         else:
             typeOfMutation = random.randint(1, 2)
             invert = random.randint(0, 1)
