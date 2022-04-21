@@ -27,6 +27,8 @@ def mtspDriver(locationsArray):
         for j in paths[i]:
             curURL += "/" + locationManager.locations[j].getAddress().replace(
                 " ", "+")
+        curURL += "/" + locationManager.locations[i].getAddress().replace(
+                " ", "+")
         if not paths[i]:
             ret.append("Car " + str(i + 1) + " has no route")
         else:
